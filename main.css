@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #343a40;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #1c1e22;
+    color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #80a3f5;
+    transform: translateY(-2px);
+}
+
+section {
+    padding: 80px 0;
+    position: relative;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #8059ec;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #8059ec;
+    box-shadow: 0 0 5px rgba(128, 89, 236, 0.5);
+}
+
+.btn-primary {
+    background-color: #8059ec;
+    border: none;
+    border-radius: 10px;
+    padding: 10px
